@@ -24,6 +24,6 @@ App Store Connect needs a **Privacy Policy URL** and **Support URL** per app:
    - `A` @ → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `AAAA` @ → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
    - `CNAME` www → `<github-username>.github.io`
-3. GitHub repo → Settings → Pages → Custom domain `www.cmounierconsulting.com` → tick **Enforce HTTPS**.
+3. Recreate the `CNAME` file containing `www.cmounierconsulting.com` (or set it in GitHub repo → Settings → Pages → Custom domain) `www.cmounierconsulting.com` → tick **Enforce HTTPS**.
 4. (Recommended) Verify the domain in GitHub account Settings → Pages to prevent takeover.
 5. (Optional) Set up `contact@cmounierconsulting.com` forwarding and update `contactEmail` in `config.js`.

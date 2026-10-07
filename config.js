@@ -2,7 +2,7 @@
 window.SITE_CONFIG = {
   companyName: "CMounier Consulting",
   founderName: "Clément Mounier",
-  contactEmail: "cmounier.consulting@gmail.com",
+  contactEmail: "games@cmounierconsulting.com",
   linkedinUrl: "",                                // empty = button hidden
 
   // Mentions légales (mandatory for a French company website — LCEN art. 6)

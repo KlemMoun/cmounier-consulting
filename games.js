@@ -11,7 +11,7 @@ window.GAMES = [
     name: "My Game",
     status: "live",                         // "live" | "soon"
     icon: "assets/games/my-game/icon.png",  // 512×512 PNG recommended
-    genre: { en: "Arcade shooter", fr: "Shoot'em up arcade" },
+    genre: { en: "Puzzle", fr: "Puzzle" },
     description: {
       en: "One or two sentences describing the game.",
       fr: "Une ou deux phrases décrivant le jeu."

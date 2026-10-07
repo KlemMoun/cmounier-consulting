@@ -8,7 +8,7 @@ window.SITE_CONFIG = {
   // Mentions légales (mandatory for a French company website — LCEN art. 6)
   legal: {
     form: "SASU",
-    capital: "1,00 €",
+    capital: { en: "€1.00", fr: "1,00 €" },
     siren: "940 314 636",
     rcs: "940 314 636 R.C.S. Versailles",
     vat: "FR08 940314636",                       // computed from SIREN — check on your tax account

@@ -27,6 +27,11 @@
 
     document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(lang, el.dataset.i18n); });
     document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = t(lang, el.dataset.i18nHtml); });
+    // Config values may be plain strings or per-language objects ({ en, fr })
+    document.querySelectorAll("[data-cfg]").forEach(el => {
+      const val = el.dataset.cfg.split(".").reduce((o, k) => o?.[k], cfg);
+      el.textContent = (val && typeof val === "object") ? (val[lang] ?? val.en) : (val ?? "");
+    });
     document.querySelectorAll(".lang-switch button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
 
     const titleKey = document.body.dataset.titleKey;
@@ -106,10 +111,6 @@
   });
 
   // ── Config-driven bits ────────────────────────────────
-  document.querySelectorAll("[data-cfg]").forEach(el => {
-    const val = el.dataset.cfg.split(".").reduce((o, k) => o?.[k], cfg);
-    el.textContent = val ?? "";
-  });
   document.querySelectorAll("#contact-email, [data-mailto]").forEach(a => {
     a.href = "mailto:" + cfg.contactEmail;
     if (a.dataset.mailto !== undefined) a.textContent = cfg.contactEmail;

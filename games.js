@@ -21,8 +21,8 @@ window.GAMES = [
       "assets/games/my-game/shot2.png"
     ],
     appStoreUrl: "https://apps.apple.com/app/idXXXXXXXXXX",
-    privacyUrl: "privacy.html",
-    supportUrl: "support.html"
+    supportEmail: "mygame.support@example.com",   // dedicated support address for this game
+    privacyUrl: "privacy.html"
   },
   */
 ];

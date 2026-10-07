@@ -33,6 +33,16 @@
     if (titleKey) document.title = t(lang, titleKey) + " — " + cfg.companyName;
 
     renderGames();
+    renderSupport();
+  }
+
+  function renderSupport() {
+    const list = document.getElementById("support-list");
+    if (!list) return;
+    const games = (window.GAMES || []).filter(g => g.supportEmail);
+    list.innerHTML = games.length
+      ? `<dl>${games.map(g => `<dt id="support-${esc(g.slug)}">${esc(g.name)}</dt><dd><a href="mailto:${esc(g.supportEmail)}">${esc(g.supportEmail)}</a></dd>`).join("")}</dl>`
+      : `<p><em>${esc(t(lang, "support.empty"))}</em></p>`;
   }
 
   // ── Games ──────────────────────────────────────────────
@@ -60,7 +70,7 @@
         live && g.appStoreUrl
           ? `<a class="btn btn-primary" href="${esc(g.appStoreUrl)}" target="_blank" rel="noopener">${esc(t(lang, "games.appstore"))}</a>` : "",
         g.privacyUrl ? `<a class="btn btn-ghost" href="${esc(g.privacyUrl)}">${esc(t(lang, "games.privacy"))}</a>` : "",
-        g.supportUrl ? `<a class="btn btn-ghost" href="${esc(g.supportUrl)}">${esc(t(lang, "games.support"))}</a>` : ""
+        g.supportEmail ? `<a class="btn btn-ghost" href="support.html#support-${esc(g.slug)}">${esc(t(lang, "games.support"))}</a>` : ""
       ].join("");
       return `
         <article class="game" id="game-${esc(g.slug)}">

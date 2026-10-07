@@ -12,7 +12,7 @@ Static bilingual (EN/FR) website for CMounier Consulting SASU, hosted on GitHub 
 
 ### Add a game
 1. Put `icon.png` (512×512) and screenshots (portrait PNG/JPG, ~1290×2796 or smaller) in `assets/games/<slug>/`.
-2. Copy the template in `games.js`, fill it, set `status: "soon"` then `"live"` with the App Store URL once released.
+2. Copy the template in `games.js`, fill it (incl. its dedicated `supportEmail`), set `status: "soon"` then `"live"` with the App Store URL once released.
 3. Commit & push — the site updates in ~1 min.
 
 App Store Connect needs a **Privacy Policy URL** and **Support URL** per app:

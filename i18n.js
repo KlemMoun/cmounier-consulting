@@ -83,13 +83,13 @@ window.I18N = {
     "privacy.h5": "Contact",
 
     "support.title": "App support",
-    "support.intro": "Need help with one of our games, found a bug or have a suggestion? We read every message.",
+    "support.intro": "Need help with one of our games, found a bug or have a suggestion? Each game has its own support address listed below.",
+    "support.contacts": "Support contact by game",
+    "support.empty": "Support contacts will be listed here as each game is released.",
     "support.how": "Please include the game name, your device model and iOS version, and a short description of the issue (a screenshot helps).",
     "support.faq": "Frequently asked questions",
     "support.q1": "I lost my progress after changing device.",
     "support.a1": "Progress is stored on your device. When iCloud sync is available in a game, make sure you are signed in to the same Apple ID on both devices.",
-    "support.q2": "How do I request a refund?",
-    "support.a2": "Purchases are handled by Apple. You can request a refund at reportaproblem.apple.com.",
     "support.response": "We usually reply within 2 business days."
   },
 
@@ -175,13 +175,13 @@ window.I18N = {
     "privacy.h5": "Contact",
 
     "support.title": "Assistance applis",
-    "support.intro": "Besoin d'aide sur l'un de nos jeux, un bug à signaler ou une suggestion ? Nous lisons tous les messages.",
+    "support.intro": "Besoin d'aide sur l'un de nos jeux, un bug à signaler ou une suggestion ? Chaque jeu dispose de sa propre adresse d'assistance, indiquée ci-dessous.",
+    "support.contacts": "Contact assistance par jeu",
+    "support.empty": "Les adresses d'assistance seront indiquées ici à la sortie de chaque jeu.",
     "support.how": "Merci d'indiquer le nom du jeu, le modèle de votre appareil et la version d'iOS, ainsi qu'une courte description du problème (une capture d'écran aide beaucoup).",
     "support.faq": "Questions fréquentes",
     "support.q1": "J'ai perdu ma progression en changeant d'appareil.",
     "support.a1": "La progression est stockée sur votre appareil. Lorsque la synchronisation iCloud est disponible dans un jeu, vérifiez que vous êtes connecté au même identifiant Apple sur les deux appareils.",
-    "support.q2": "Comment demander un remboursement ?",
-    "support.a2": "Les achats sont gérés par Apple. Vous pouvez demander un remboursement sur reportaproblem.apple.com.",
     "support.response": "Nous répondons généralement sous 2 jours ouvrés."
   }
 };

@@ -2,8 +2,8 @@
 window.SITE_CONFIG = {
   companyName: "CMounier Consulting",
   founderName: "Clément Mounier",
-  contactEmail: "contact@cmounierconsulting.com", // TODO: an address you actually receive
-  linkedinUrl: "",                               // TODO: e.g. "https://www.linkedin.com/in/xxxx" (empty = button hidden)
+  contactEmail: "cmounier.consulting@gmail.com",
+  linkedinUrl: "https://www.linkedin.com/in/clement-mounier",   // empty = button hidden
 
   // Mentions légales (mandatory for a French company website — LCEN art. 6)
   legal: {

@@ -1,19 +1,19 @@
 // Site-wide settings — edit these values, no other file needs to change.
 window.SITE_CONFIG = {
   companyName: "CMounier Consulting",
-  founderName: "C. Mounier",                     // TODO: full name as it should appear publicly
+  founderName: "Clément Mounier",
   contactEmail: "contact@cmounierconsulting.com", // TODO: an address you actually receive
   linkedinUrl: "",                               // TODO: e.g. "https://www.linkedin.com/in/xxxx" (empty = button hidden)
 
   // Mentions légales (mandatory for a French company website — LCEN art. 6)
   legal: {
     form: "SASU",
-    capital: "TODO",                               // e.g. "1 000 €"
-    siren: "TODO",                               // 9 digits
-    rcs: "RCS TODO",                             // e.g. "RCS Paris 123 456 789"
-    vat: "TODO",                                 // e.g. "FR12 123456789"
-    address: "TODO — registered office address",
-    publisher: "C. Mounier, Président",          // directeur de la publication
+    capital: "1,00 €",
+    siren: "940 314 636",
+    rcs: "940 314 636 R.C.S. Versailles",
+    vat: "FR08 940314636",                       // computed from SIREN — check on your tax account
+    address: "25 avenue Jeanne Léger, 78150 Le Chesnay-Rocquencourt, France",
+    publisher: "Clément Mounier, Président",   // directeur de la publication
     host: "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA"
   }
 };

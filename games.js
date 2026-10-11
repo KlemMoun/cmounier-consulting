@@ -37,5 +37,18 @@ window.GAMES = [
     pageUrl: "blockwright/",
     supportEmail: "blockwright@cmounierconsulting.com",
     privacyUrl: "blockwright/privacy.html"
+  },
+  {
+    slug: "parapet",
+    name: "Parapet",
+    status: "soon",
+    genre: { en: "Tower defense", fr: "Tower defense" },
+    description: {
+      en: "A turn-based tower defense puzzle: hold the gate, one move at a time. Coming soon on the App Store.",
+      fr: "Un tower defense au tour par tour : tenez la porte, un coup à la fois. Bientôt sur l'App Store."
+    },
+    pageUrl: "parapet/",
+    supportEmail: "parapet@cmounierconsulting.com",
+    privacyUrl: "parapet/privacy.html"
   }
 ];

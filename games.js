@@ -29,6 +29,7 @@ window.GAMES = [
     slug: "blockwright",
     name: "Blockwright",
     status: "soon",
+    icon: "assets/games/blockwright/icon.png",
     genre: { en: "Puzzle", fr: "Puzzle" },
     description: {
       en: "200 block puzzles, every one of them provably solvable. Coming soon on the App Store.",
@@ -42,6 +43,7 @@ window.GAMES = [
     slug: "parapet",
     name: "Parapet",
     status: "soon",
+    icon: "assets/games/parapet/icon.png",
     genre: { en: "Tower defense", fr: "Tower defense" },
     description: {
       en: "A turn-based tower defense puzzle: hold the gate, one move at a time. Coming soon on the App Store.",

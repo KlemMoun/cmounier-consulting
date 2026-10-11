@@ -18,6 +18,9 @@
     .page ul { color: var(--muted); padding-left: 1.2em; }
     .page .game-nav { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 1.5em; font-weight: 600; }
     .page .note { font-size: .92rem; }
+    .page .game-title { display: flex; align-items: center; gap: 16px; margin-bottom: .5em; }
+    .page .game-title h1 { margin: 0; }
+    .page .game-icon { width: 64px; height: 64px; border-radius: 15px; object-fit: cover; flex-shrink: 0; }
     .page dt { font-weight: 600; margin-top: 1.2em; } .page dd { margin: .3em 0 0; color: var(--muted); }
   </style>
 </head>
@@ -40,7 +43,7 @@
   <main class="page">
     <div class="container">
       <section id="en" lang="en">
-        <h1>Blockwright — Privacy policy</h1>
+        <div class="game-title"><img class="game-icon" src="../assets/games/blockwright/icon.png" width="64" height="64" alt=""><h1>Blockwright — Privacy policy</h1></div>
         <p class="game-nav"><a href="index.html#en">About</a> <a href="privacy.html#en" aria-current="page">Privacy policy</a> <a href="support.html#en">Support</a></p>
         <p><em>Last updated: 8 October 2026</em></p>
         <h2>The short version</h2>
@@ -74,7 +77,7 @@
         <p style="margin-top:48px"><a href="../index.html">← All games and CMounier Consulting</a></p>
       </section>
       <section id="fr" lang="fr">
-        <h1>Blockwright — Confidentialité</h1>
+        <div class="game-title"><img class="game-icon" src="../assets/games/blockwright/icon.png" width="64" height="64" alt=""><h1>Blockwright — Confidentialité</h1></div>
         <p class="game-nav"><a href="index.html#fr">Le jeu</a> <a href="privacy.html#fr" aria-current="page">Confidentialité</a> <a href="support.html#fr">Assistance</a></p>
         <p><em>Dernière mise à jour : 8 octobre 2026</em></p>
         <h2>En bref</h2>

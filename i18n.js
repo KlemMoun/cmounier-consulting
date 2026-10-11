@@ -28,6 +28,7 @@ window.I18N = {
     "games.live": "Available",
     "games.soon": "Coming soon",
     "games.appstore": "Download on the App Store",
+    "games.page": "About the game",
     "games.privacy": "Privacy",
     "games.support": "Support",
 
@@ -117,6 +118,7 @@ window.I18N = {
     "games.live": "Disponible",
     "games.soon": "Bientôt",
     "games.appstore": "Télécharger dans l'App Store",
+    "games.page": "Le jeu",
     "games.privacy": "Confidentialité",
     "games.support": "Assistance",
 

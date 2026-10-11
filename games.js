@@ -25,4 +25,17 @@ window.GAMES = [
     privacyUrl: "privacy.html"
   },
   */
+  {
+    slug: "blockwright",
+    name: "Blockwright",
+    status: "soon",
+    genre: { en: "Puzzle", fr: "Puzzle" },
+    description: {
+      en: "200 block puzzles, every one of them provably solvable. Coming soon on the App Store.",
+      fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui. Bientôt sur l'App Store."
+    },
+    pageUrl: "blockwright/",
+    supportEmail: "blockwright@cmounierconsulting.com",
+    privacyUrl: "blockwright/privacy.html"
+  }
 ];

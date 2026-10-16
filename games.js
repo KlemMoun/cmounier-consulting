@@ -52,5 +52,33 @@ window.GAMES = [
     pageUrl: "parapet/",
     supportEmail: "parapet@cmounierconsulting.com",
     privacyUrl: "parapet/privacy.html"
+  },
+  {
+    slug: "whereabouts",
+    name: "Whereabouts",
+    status: "soon",
+    icon: "assets/games/whereabouts/icon.png",
+    genre: { en: "Logic puzzle", fr: "Logique" },
+    description: {
+      en: "A logic-grid detective puzzle: one case a day, no guessing. Coming soon on the App Store.",
+      fr: "Un puzzle de logique policier : une affaire par jour, sans deviner. Bientôt sur l'App Store."
+    },
+    pageUrl: "whereabouts/",
+    supportEmail: "whereabouts@cmounierconsulting.com",
+    privacyUrl: "whereabouts/privacy.html"
+  },
+  {
+    slug: "broadsheet",
+    name: "Broadsheet",
+    status: "soon",
+    icon: "assets/games/broadsheet/icon.png",
+    genre: { en: "Word puzzles", fr: "Jeux de mots" },
+    description: {
+      en: "Four puzzles a day, in one small app you buy once. Coming soon on the App Store.",
+      fr: "Quatre puzzles par jour, dans une petite application achetée une fois. Bientôt sur l'App Store."
+    },
+    pageUrl: "broadsheet/",
+    supportEmail: "broadsheet@cmounierconsulting.com",
+    privacyUrl: "broadsheet/privacy.html"
   }
 ];

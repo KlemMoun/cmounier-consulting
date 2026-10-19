@@ -80,5 +80,19 @@ window.GAMES = [
     pageUrl: "broadsheet/",
     supportEmail: "broadsheet@cmounierconsulting.com",
     privacyUrl: "broadsheet/privacy.html"
+  },
+  {
+    slug: "nonogramnoir",
+    name: "Nonogram Noir",
+    status: "soon",
+    icon: "assets/games/nonogramnoir/icon.png",
+    genre: { en: "Picture logic", fr: "Logique en image" },
+    description: {
+      en: "Picture-logic puzzles in a 1940s missing-person case. Coming soon on the App Store.",
+      fr: "Des grilles de logique en image dans une enquête de 1940. Bientôt sur l'App Store."
+    },
+    pageUrl: "nonogramnoir/",
+    supportEmail: "nonogramnoir@cmounierconsulting.com",
+    privacyUrl: "nonogramnoir/privacy.html"
   }
 ];

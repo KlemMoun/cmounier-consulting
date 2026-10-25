@@ -85,7 +85,7 @@
             <div>
               <h4>${esc(g.name)}</h4>
               <div class="game-tag">${esc(g.genre?.[lang] ?? g.genre?.en ?? "")}</div>
-              <span class="badge ${live ? "badge-live" : "badge-soon"}">${esc(t(lang, live ? "games.live" : "games.soon"))}</span>
+              <span class="badge ${live ? "badge-live" : "badge-soon"}">${esc(g.badge?.[lang] ?? g.badge?.en ?? t(lang, live ? "games.live" : "games.soon"))}</span>
             </div>
           </div>
           <div class="game-body">

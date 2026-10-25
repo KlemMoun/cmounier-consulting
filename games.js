@@ -10,6 +10,7 @@ window.GAMES = [
     slug: "my-game",
     name: "My Game",
     status: "live",                         // "live" | "soon"
+    badge: { en: "Coming Nov 19", fr: "Bientôt · 19 nov." }, // optional: replaces the default badge text
     icon: "assets/games/my-game/icon.png",  // 512×512 PNG recommended
     genre: { en: "Puzzle", fr: "Puzzle" },
     description: {
@@ -43,6 +44,7 @@ window.GAMES = [
     slug: "parapet",
     name: "Parapet",
     status: "soon",
+    badge: { en: "Coming Nov 19, 2026", fr: "Bientôt · 19 nov. 2026" },
     icon: "assets/games/parapet/icon.png",
     genre: { en: "Tower defense", fr: "Tower defense" },
     description: {
@@ -71,6 +73,7 @@ window.GAMES = [
     slug: "broadsheet",
     name: "Broadsheet",
     status: "soon",
+    badge: { en: "Coming January 2027", fr: "Bientôt · janv. 2027" },
     icon: "assets/games/broadsheet/icon.png",
     genre: { en: "Word puzzles", fr: "Jeux de mots" },
     description: {
@@ -85,6 +88,7 @@ window.GAMES = [
     slug: "nonogramnoir",
     name: "Nonogram Noir",
     status: "soon",
+    badge: { en: "Pre-order from Nov 19 · out Dec 10, 2026", fr: "Précommande dès le 19 nov. · sortie le 10 déc. 2026" },
     icon: "assets/games/nonogramnoir/icon.png",
     genre: { en: "Picture logic", fr: "Logique en image" },
     description: {

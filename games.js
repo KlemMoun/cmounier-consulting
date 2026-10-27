@@ -27,18 +27,18 @@ window.GAMES = [
   },
   */
   {
-    slug: "blockwright",
-    name: "Blockwright",
+    slug: "joinstead",
+    name: "Joinstead",
     status: "soon",
-    icon: "assets/games/blockwright/icon.png",
+    icon: "assets/games/joinstead/icon.png",
     genre: { en: "Puzzle", fr: "Puzzle" },
     description: {
       en: "200 block puzzles, every one of them provably solvable. Coming soon on the App Store.",
       fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui. Bientôt sur l'App Store."
     },
-    pageUrl: "blockwright/",
-    supportEmail: "blockwright@cmounierconsulting.com",
-    privacyUrl: "blockwright/privacy.html"
+    pageUrl: "joinstead/",
+    supportEmail: "joinstead@cmounierconsulting.com",
+    privacyUrl: "joinstead/privacy.html"
   },
   {
     slug: "parapet",

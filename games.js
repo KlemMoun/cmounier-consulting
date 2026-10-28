@@ -70,19 +70,19 @@ window.GAMES = [
     privacyUrl: "whereabouts/privacy.html"
   },
   {
-    slug: "broadsheet",
-    name: "Broadsheet",
+    slug: "gazettry",
+    name: "Gazettry",
     status: "soon",
     badge: { en: "Coming January 2027", fr: "Bientôt · janv. 2027" },
-    icon: "assets/games/broadsheet/icon.png",
+    icon: "assets/games/gazettry/icon.png",
     genre: { en: "Word puzzles", fr: "Jeux de mots" },
     description: {
       en: "Four puzzles a day, in one small app you buy once. Coming soon on the App Store.",
       fr: "Quatre puzzles par jour, dans une petite application achetée une fois. Bientôt sur l'App Store."
     },
-    pageUrl: "broadsheet/",
-    supportEmail: "broadsheet@cmounierconsulting.com",
-    privacyUrl: "broadsheet/privacy.html"
+    pageUrl: "gazettry/",
+    supportEmail: "gazettry@cmounierconsulting.com",
+    privacyUrl: "gazettry/privacy.html"
   },
   {
     slug: "nonogramnoir",

@@ -56,18 +56,18 @@ window.GAMES = [
     privacyUrl: "parapet/privacy.html"
   },
   {
-    slug: "whereabouts",
-    name: "Whereabouts",
+    slug: "clewmark",
+    name: "Clewmark",
     status: "soon",
-    icon: "assets/games/whereabouts/icon.png",
+    icon: "assets/games/clewmark/icon.png",
     genre: { en: "Logic puzzle", fr: "Logique" },
     description: {
       en: "A logic-grid detective puzzle: one case a day, no guessing. Coming soon on the App Store.",
       fr: "Un puzzle de logique policier : une affaire par jour, sans deviner. Bientôt sur l'App Store."
     },
-    pageUrl: "whereabouts/",
-    supportEmail: "whereabouts@cmounierconsulting.com",
-    privacyUrl: "whereabouts/privacy.html"
+    pageUrl: "clewmark/",
+    supportEmail: "clewmark@cmounierconsulting.com",
+    privacyUrl: "clewmark/privacy.html"
   },
   {
     slug: "gazettry",

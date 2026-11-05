@@ -20,6 +20,9 @@
     .page .game-title h1 { margin: 0; }
     .page .game-icon { width: 64px; height: 64px; border-radius: 15px; object-fit: cover; flex-shrink: 0; }
     .page dt { font-weight: 600; margin-top: 1.2em; } .page dd { margin: .3em 0 0; color: var(--muted); }
+    .page .shots { display: flex; gap: 12px; overflow-x: auto; padding: 4px 0 12px; margin: 1.2em 0; scroll-snap-type: x mandatory; }
+    .page .shots picture { flex: 0 0 auto; scroll-snap-align: start; }
+    .page .shots img { width: 180px; height: auto; aspect-ratio: 440 / 956; border-radius: 18px; flex-shrink: 0; scroll-snap-align: start; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
   </style>
 </head>
 <body>
@@ -51,6 +54,7 @@
         <p>Every day back to 1 January 2026 is playable in full from the moment you install.</p>
         <p>English, French and Spanish, switchable in the Stats screen: each language has its own word lists, its own daily puzzles and its own streak.</p>
         <p>VoiceOver labelling, Dynamic Type, and a colour-blind mode that puts symbols on the tiles.</p>
+        <div class="shots"><picture><source srcset="../assets/games/gazettry/shots/01-today.webp" type="image/webp"><img src="../assets/games/gazettry/shots/01-today.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/02-lexicon.webp" type="image/webp"><img src="../assets/games/gazettry/shots/02-lexicon.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/03-links.webp" type="image/webp"><img src="../assets/games/gazettry/shots/03-links.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/04-sums.webp" type="image/webp"><img src="../assets/games/gazettry/shots/04-sums.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/05-ladder.webp" type="image/webp"><img src="../assets/games/gazettry/shots/05-ladder.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/06-picture.webp" type="image/webp"><img src="../assets/games/gazettry/shots/06-picture.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/07-archive.webp" type="image/webp"><img src="../assets/games/gazettry/shots/07-archive.jpg" width="440" height="956" loading="lazy" alt=""></picture><picture><source srcset="../assets/games/gazettry/shots/08-stats.webp" type="image/webp"><img src="../assets/games/gazettry/shots/08-stats.jpg" width="440" height="956" loading="lazy" alt=""></picture></div>
         <p><strong>One purchase. No ads, no account, no in-app purchase, no subscription. Once downloaded, no internet connection is needed, ever.</strong></p>
         <h2>Contact</h2>
         <p><a href="mailto:gazettry@cmounierconsulting.com">gazettry@cmounierconsulting.com</a></p>

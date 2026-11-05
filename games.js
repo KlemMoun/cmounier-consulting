@@ -10,12 +10,13 @@ window.GAMES = [
     slug: "my-game",
     name: "My Game",
     status: "live",                         // "live" | "soon"
-    badge: { en: "Coming Nov 19", fr: "Bientôt · 19 nov." }, // optional: replaces the default badge text
+    badge: { en: "Coming Nov 19", fr: "Bientôt · 19 nov.", es: "Próximamente · 19 nov." }, // optional: replaces the default badge text
     icon: "assets/games/my-game/icon.png",  // 512×512 PNG recommended
-    genre: { en: "Puzzle", fr: "Puzzle" },
+    genre: { en: "Puzzle", fr: "Puzzle", es: "Puzle" },
     description: {
       en: "One or two sentences describing the game.",
-      fr: "Une ou deux phrases décrivant le jeu."
+      fr: "Une ou deux phrases décrivant le jeu.",
+      es: "Una o dos frases que describen el juego."
     },
     screenshots: [
       "assets/games/my-game/shot1.png",
@@ -31,10 +32,11 @@ window.GAMES = [
     name: "Joinstead",
     status: "soon",
     icon: "assets/games/joinstead/icon.png",
-    genre: { en: "Puzzle", fr: "Puzzle" },
+    genre: { en: "Puzzle", fr: "Puzzle", es: "Puzle" },
     description: {
       en: "200 block puzzles, every one of them provably solvable. Coming soon on the App Store.",
-      fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui. Bientôt sur l'App Store."
+      fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui. Bientôt sur l'App Store.",
+      es: "200 puzles de bloques, todos demostrados resolubles. Próximamente en el App Store."
     },
     pageUrl: "joinstead/",
     supportEmail: "joinstead@cmounierconsulting.com",
@@ -44,12 +46,13 @@ window.GAMES = [
     slug: "parapet",
     name: "Parapet",
     status: "soon",
-    badge: { en: "Coming Nov 19, 2026", fr: "Bientôt · 19 nov. 2026" },
+    badge: { en: "Coming Nov 19, 2026", fr: "Bientôt · 19 nov. 2026", es: "Próximamente · 19 nov. 2026" },
     icon: "assets/games/parapet/icon.png",
-    genre: { en: "Tower defense", fr: "Tower defense" },
+    genre: { en: "Tower defense", fr: "Tower defense", es: "Tower defense" },
     description: {
       en: "A turn-based tower defense puzzle: hold the gate, one move at a time. Coming soon on the App Store.",
-      fr: "Un tower defense au tour par tour : tenez la porte, un coup à la fois. Bientôt sur l'App Store."
+      fr: "Un tower defense au tour par tour : tenez la porte, un coup à la fois. Bientôt sur l'App Store.",
+      es: "Un tower defense por turnos: defiende la puerta, un movimiento cada vez. Próximamente en el App Store."
     },
     pageUrl: "parapet/",
     supportEmail: "parapet@cmounierconsulting.com",
@@ -60,10 +63,11 @@ window.GAMES = [
     name: "Clewmark",
     status: "soon",
     icon: "assets/games/clewmark/icon.png",
-    genre: { en: "Logic puzzle", fr: "Logique" },
+    genre: { en: "Logic puzzle", fr: "Logique", es: "Puzle de lógica" },
     description: {
       en: "A logic-grid detective puzzle: one case a day, no guessing. Coming soon on the App Store.",
-      fr: "Un puzzle de logique policier : une affaire par jour, sans deviner. Bientôt sur l'App Store."
+      fr: "Un puzzle de logique policier : une affaire par jour, sans deviner. Bientôt sur l'App Store.",
+      es: "Un puzle de lógica policial: un caso al día, sin adivinar. Próximamente en el App Store."
     },
     pageUrl: "clewmark/",
     supportEmail: "clewmark@cmounierconsulting.com",
@@ -73,12 +77,13 @@ window.GAMES = [
     slug: "gazettry",
     name: "Gazettry",
     status: "soon",
-    badge: { en: "Coming January 2027", fr: "Bientôt · janv. 2027" },
+    badge: { en: "Coming January 2027", fr: "Bientôt · janv. 2027", es: "Próximamente · enero de 2027" },
     icon: "assets/games/gazettry/icon.png",
-    genre: { en: "Word puzzles", fr: "Jeux de mots" },
+    genre: { en: "Word puzzles", fr: "Jeux de mots", es: "Juegos de palabras" },
     description: {
       en: "Four puzzles a day, in one small app you buy once. Coming soon on the App Store.",
-      fr: "Quatre puzzles par jour, dans une petite application achetée une fois. Bientôt sur l'App Store."
+      fr: "Quatre puzzles par jour, dans une petite application achetée une fois. Bientôt sur l'App Store.",
+      es: "Cuatro puzles al día, en una pequeña app que compras una sola vez. Próximamente en el App Store."
     },
     pageUrl: "gazettry/",
     supportEmail: "gazettry@cmounierconsulting.com",
@@ -88,12 +93,13 @@ window.GAMES = [
     slug: "nonogramnoir",
     name: "Nonogram Noir",
     status: "soon",
-    badge: { en: "Pre-order from Nov 19 · out Dec 10, 2026", fr: "Précommande dès le 19 nov. · sortie le 10 déc. 2026" },
+    badge: { en: "Pre-order from Nov 19 · out Dec 10, 2026", fr: "Précommande dès le 19 nov. · sortie le 10 déc. 2026", es: "Reserva desde el 19 nov. · a la venta el 10 dic. 2026" },
     icon: "assets/games/nonogramnoir/icon.png",
-    genre: { en: "Picture logic", fr: "Logique en image" },
+    genre: { en: "Picture logic", fr: "Logique en image", es: "Lógica en imagen" },
     description: {
       en: "Picture-logic puzzles in a 1940s missing-person case. Coming soon on the App Store.",
-      fr: "Des grilles de logique en image dans une enquête de 1940. Bientôt sur l'App Store."
+      fr: "Des grilles de logique en image dans une enquête de 1940. Bientôt sur l'App Store.",
+      es: "Rejillas de lógica en imagen en un caso de desaparición de 1940. Próximamente en el App Store."
     },
     pageUrl: "nonogramnoir/",
     supportEmail: "nonogramnoir@cmounierconsulting.com",

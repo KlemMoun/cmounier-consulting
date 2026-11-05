@@ -10,7 +10,8 @@
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved && dict[saved]) return saved;
     } catch (e) { /* storage unavailable */ }
-    return (navigator.language || "en").toLowerCase().startsWith("fr") ? "fr" : "en";
+    const nav = (navigator.language || "en").toLowerCase();
+    return nav.startsWith("fr") ? "fr" : nav.startsWith("es") ? "es" : "en";
   }
 
   function t(lang, key) {

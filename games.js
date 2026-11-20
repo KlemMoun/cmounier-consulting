@@ -45,15 +45,16 @@ window.GAMES = [
   {
     slug: "parapet",
     name: "Parapet",
-    status: "soon",
-    badge: { en: "Coming Nov 19, 2026", fr: "Bientôt · 19 nov. 2026", es: "Próximamente · 19 nov. 2026" },
+    status: "live",
+    badge: { en: "Out now", fr: "Disponible", es: "Disponible" },
     icon: "assets/games/parapet/icon.png",
     genre: { en: "Tower defense", fr: "Tower defense", es: "Tower defense" },
     description: {
-      en: "A turn-based tower defense puzzle: hold the gate, one move at a time. Coming soon on the App Store.",
-      fr: "Un tower defense au tour par tour : tenez la porte, un coup à la fois. Bientôt sur l'App Store.",
-      es: "Un tower defense por turnos: defiende la puerta, un movimiento cada vez. Próximamente en el App Store."
+      en: "A turn-based tower defense puzzle: hold the gate, one move at a time.",
+      fr: "Un tower defense au tour par tour : tenez la porte, un coup à la fois.",
+      es: "Un tower defense por turnos: defiende la puerta, un movimiento cada vez."
     },
+    appStoreUrl: "https://apps.apple.com/app/id6825487295",
     pageUrl: "parapet/",
     supportEmail: "parapet@cmounierconsulting.com",
     privacyUrl: "parapet/privacy.html"
@@ -93,7 +94,7 @@ window.GAMES = [
     slug: "nonogramnoir",
     name: "Nonogram Noir",
     status: "soon",
-    badge: { en: "Pre-order from Nov 19 · out Dec 10, 2026", fr: "Précommande dès le 19 nov. · sortie le 10 déc. 2026", es: "Reserva desde el 19 nov. · a la venta el 10 dic. 2026" },
+    badge: { en: "Pre-order · Dec 10, 2026", fr: "Précommande · 10 déc. 2026", es: "Reserva · 10 dic. 2026" },
     icon: "assets/games/nonogramnoir/icon.png",
     genre: { en: "Picture logic", fr: "Logique en image", es: "Lógica en imagen" },
     description: {

@@ -102,6 +102,7 @@ window.GAMES = [
       fr: "Des grilles de logique en image dans une enquête de 1940. Bientôt sur l'App Store.",
       es: "Rejillas de lógica en imagen en un caso de desaparición de 1940. Próximamente en el App Store."
     },
+    preorderUrl: "https://apps.apple.com/app/id6826666557",
     pageUrl: "nonogramnoir/",
     supportEmail: "nonogramnoir@cmounierconsulting.com",
     privacyUrl: "nonogramnoir/privacy.html"

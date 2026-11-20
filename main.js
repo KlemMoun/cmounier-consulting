@@ -75,6 +75,8 @@
       const links = [
         live && g.appStoreUrl
           ? `<a class="btn btn-primary" href="${esc(g.appStoreUrl)}" target="_blank" rel="noopener">${esc(t(lang, "games.appstore"))}</a>` : "",
+        !live && g.preorderUrl
+          ? `<a class="btn btn-primary" href="${esc(g.preorderUrl)}" target="_blank" rel="noopener">${esc(t(lang, "games.preorder"))}</a>` : "",
         g.pageUrl ? `<a class="btn btn-ghost" href="${esc(g.pageUrl)}">${esc(t(lang, "games.page"))}</a>` : "",
         g.privacyUrl ? `<a class="btn btn-ghost" href="${esc(g.privacyUrl)}">${esc(t(lang, "games.privacy"))}</a>` : "",
         g.supportEmail ? `<a class="btn btn-ghost" href="support.html#support-${esc(g.slug)}">${esc(t(lang, "games.support"))}</a>` : ""

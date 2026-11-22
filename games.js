@@ -30,14 +30,16 @@ window.GAMES = [
   {
     slug: "joinstead",
     name: "Joinstead",
-    status: "soon",
+    status: "live",
+    badge: { en: "Out now", fr: "Disponible", es: "Disponible" },
     icon: "assets/games/joinstead/icon.png",
     genre: { en: "Puzzle", fr: "Puzzle", es: "Puzle" },
     description: {
-      en: "200 block puzzles, every one of them provably solvable. Coming soon on the App Store.",
-      fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui. Bientôt sur l'App Store.",
-      es: "200 puzles de bloques, todos demostrados resolubles. Próximamente en el App Store."
+      en: "200 block puzzles, every one of them provably solvable.",
+      fr: "200 puzzles de blocs, tous résolubles, preuve à l'appui.",
+      es: "200 puzles de bloques, todos demostrados resolubles."
     },
+    appStoreUrl: "https://apps.apple.com/app/id6826826622",
     pageUrl: "joinstead/",
     supportEmail: "joinstead@cmounierconsulting.com",
     privacyUrl: "joinstead/privacy.html"

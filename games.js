@@ -62,14 +62,16 @@ window.GAMES = [
   {
     slug: "clewmark",
     name: "Clewmark",
-    status: "soon",
+    status: "live",
+    badge: { en: "Out now", fr: "Disponible", es: "Disponible" },
     icon: "assets/games/clewmark/icon.png",
     genre: { en: "Logic puzzle", fr: "Logique", es: "Puzle de lógica" },
     description: {
-      en: "A logic-grid detective puzzle: one case a day, no guessing. Coming soon on the App Store.",
-      fr: "Un puzzle de logique policier : une affaire par jour, sans deviner. Bientôt sur l'App Store.",
-      es: "Un puzle de lógica policial: un caso al día, sin adivinar. Próximamente en el App Store."
+      en: "A logic-grid detective puzzle: one case a day, no guessing.",
+      fr: "Un puzzle de logique policier : une affaire par jour, sans deviner.",
+      es: "Un puzle de lógica policial: un caso al día, sin adivinar."
     },
+    appStoreUrl: "https://apps.apple.com/app/id6826829894",
     pageUrl: "clewmark/",
     supportEmail: "clewmark@cmounierconsulting.com",
     privacyUrl: "clewmark/privacy.html"
